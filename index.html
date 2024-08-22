@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header id="HOME">
+    <div class="page-width">
+      <div class="header-nav-links">
+        <i class="fa fa-bars" id="open" onclick="showMenu()"></i>
+        <div class="logo">
+          <img src="images/logo.svg" alt="logo image">
+        </div>
+        <div class="nav-links">
+          <nav id="main-menu">
+            <i class="fa fa-close" id="close" onclick="hideMenu()"></i>
+            <ul>
+              <li class="zoom"><a class="active" id="home-link" href="#HOME">Home</a></li>
+              <li class="zoom"><a class="inactive" id="home-link" href="#SERVICES">Services</a></li>
+              <li class="zoom"><a class="inactive" id="contact-us-link" href="#CONTACTUS">Contact Us</a></li>
+            </ul>
+          </nav>
+          <button type="button" id="contact-button"><i class="fa fa-phone"></i><span class="number">&nbsp;&nbsp;+92 330
+              4082 111</span></button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="section-1">
+    <div class="linear-gradient"></div>
+    <div class="page-width">
+      <div class="hero-section">
+        <div class="content-side">
+          <button type="button" id="bestInDubai" onclick="document.getElementById('DUBAI').scrollIntoView()">Best in Dubai</button>
+          <div class="union-images">
+            <img class="union-1" src="images/Unionsm.svg" alt="Union">
+            <img class="union-2" src="images/Unionbg.svg" alt="Union">
+            <img class="union-3" src="images/Unionbg.svg" alt="Union">
+          </div>
+          <h2>Welcome To</h2>
+          <h1>Home <span>Comfort</span></h1>
+          <p>Home Comfort provides home repair services in Dubai with reasonable rates. We fix it right with home
+            comfort professional experts.</p>
+          <div class="hero-buttons">
+            <button onclick="document.getElementById('CONTACTUS').scrollIntoView()" id="contact-us-button" type="button">CONTACT US</button>
+            <button onclick="document.getElementById('WHOAREWE').scrollIntoView()" id="learn-more-button" type="button">LEARN MORE</button>
+          </div>
+        </div>
+        <div class="picture-side">
+          <div class="subtract">
+            <img class="subtract-moon" src="images/Subtractmoon.svg" alt="Subtractmoon">
+          </div>
+          <img class="ellipse" src="images/ellipse.svg" alt="Ellipse">
+          <img class="group-img" src="images/maskgroup.svg" alt="Mask">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-2">
+    <div class="page-width">
+      <div class="circle-block">
+        <div class="circle">
+          <div class="circle-img">
+            <img src="images/sun.svg" alt="24/7">
+          </div>
+          <p>24/7 Service</p>
+        </div>
+        <div class="circle">
+          <div class="circle-img">
+            <img src="images/price.svg" alt="price">
+          </div>
+          <p>Reasonable Rates</p>
+        </div>
+        <div class="circle">
+          <div class="circle-img">
+            <img src="images/group.svg" alt="team">
+          </div>
+          <p>Experienced Team</p>
+        </div>
+      </div>
+      <div class="light-moon">
+        <img class="light-thick-moon" src="images/Subtractmoonlight.svg" alt="light moon">
+        <img class="light-thin-moon" src="images/light-thin-moon.svg" alt="light-thin-moon">
+      </div>
+      <div class="bg-effect">
+        <img src="images/bg-effect.svg" alt="bg-effect">
+      </div>
+      <div id="SERVICES" class="explore-services">
+        <div class="service-head">
+          <h2>Explore our <span>Services</span></h2>
+          <p><a href="#">Move to top</a></p>
+        </div>
+        <div class="round-bg-effect">
+          <img src="images/round-bg-effect.svg" alt="bg-effect">
+        </div>
+        <div class="service-gigs">
+          <div class="gig gig-1">
+            <div class="shadow"><span>AC Service</span><button class="book-now" type="button" onclick="alert('Service is still unavailable!')">Book Now</button></div>
+          </div>
+          <div class="gig gig-2">
+            <div class="shadow"><span>Dust Cleaning</span><button class="book-now" type="button" onclick="alert('Service is still unavailable!')">Book Now</button></div>
+          </div>
+          <div class="gig gig-3">
+            <div class="shadow"><span>Handyman</span><button class="book-now" type="button" onclick="alert('Service is still unavailable!')">Book Now</button></div>
+          </div>
+          <div class="gig gig-4">
+            <div class="shadow"><span>Plumbing</span><button class="book-now" type="button" onclick="alert('Service is still unavailable!')">Book Now</button></div>
+          </div>
+          <div class="gig gig-5">
+            <div class="shadow"><span>Electrician</span><button class="book-now" type="button" onclick="alert('Service is still unavailable!')">Book Now</button></div>
+          </div>
+        </div>
+      </div>
+      <div id="WHOAREWE" class="who-are-we">
+        <div class="image-block">
+          <img class="ellipse" src="images/ellipse.svg" alt="ellipse">
+          <img class="man" src="images/whoAreWe.svg" alt="who-are-we">
+          <img class="man-subtract-moon" src="images/man-authority-moon.svg" alt="subtract-moon">
+        </div>
+        <div class="content-block">
+          <h3>Who we <span>Are?</span></h3>
+          <p>Home Comfort is a leading multiple service provider company catering to your 360 needs with quality
+            guaranteed. The aim and priority of Home Comfort are to add value to our consumers' lives by providing smart
+            solutions to all their problems. Our pride is providing the most extensive range of services. From home
+            maintenance to personal assistance.</p>
+          <p>We make sure that your safety is never compromised. This is why we hire all the staff under the roof of
+            Home Comfort, just for your satisfaction. Our goal is to become the largest and most famous online home
+            services platform and provide our customers with the best of services and experience. Our experts will give
+            you the most satisfying experience and professionalism. On your demand, all of our best home maintenance and
+            renovation services are available at the very right time and place.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-3 web-width">
+    <div class="page-width">
+      <div class="company-authority">
+        <div class="authority-content">
+          <h2>Company <span>Authority</span></h2>
+          <p>Basically, finding the right person to do up the works is very much important and for that, there are
+            certain things you should keep in mind while appointing a service man. Analyze the best service provider who
+            can perform the works well and give you desired results. You can search for professional home service
+            companies online and get the best company that meets up your demands.</p>
+          <p>Home Comfort is a leading multiple service provider company catering to your 360 needs with quality
+            guaranteed. The aim and priority of Home Comfort are to add value to our consumers' lives by providing smart
+            solutions to all their problems. Our pride is providing the most extensive range of services. From home
+            maintenance to personal assistance.</p>
+        </div>
+        <div class="authority-picture">
+          <img class="authority-ellipse" src="images/ellipse.svg" alt="Ellipse">
+          <img class="toolboxhouse" src="images/toolboxhouse.svg" alt="toolboxhouse">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-4 web-width">
+    <div class="page-width">
+      <div id="DUBAI" class="client-heading">
+        <h3>Our <span>Clients</span></h3>
+        <p>We make sure that your safety is never compromised. This is why we hire all the staff under the roof of Home
+          Comfort, just for your satisfaction. Our goal is to become the largest and most famous online home services
+          platform and provide our customers with the best of services and experience.</p>
+      </div>
+      <div class="comment-section">
+        <div class="client-comments slider">
+          <div class="comment">
+            <div class="comment-head">
+              <div class="profile-pic">
+                <img src="images/alena.svg" alt="alena-profile-pic">
+              </div>
+              <div class="profile-content">
+                <h4>Alena Herwitz</h4>
+                <div class="rating">
+                  <p>3 months ago</p>
+                  <img src="images/stars.svg" alt="rating stars">
+                </div>
+              </div>
+            </div>
+            <div class="statement">
+              <p>We make sure that your safety is never compromised. This is why we hire all the staff under the roof of
+                Home Comfort, just for your satisfaction.</p>
+            </div>
+          </div>
+          <div class="comment">
+            <div class="comment-head">
+              <div class="profile-pic">
+                <img src="images/alena2.svg" alt="alena-profile-pic">
+              </div>
+              <div class="profile-content">
+                <h4>Alena Herwitz</h4>
+                <div class="rating">
+                  <p>3 months ago</p>
+                  <img src="images/stars.svg" alt="rating stars">
+                </div>
+              </div>
+            </div>
+            <div class="statement">
+              <p>We make sure that your safety is never compromised. This is why we hire all the staff under the roof of
+                Home Comfort, just for your satisfaction.</p>
+            </div>
+          </div>
+          <div class="comment">
+            <div class="comment-head">
+              <div class="profile-pic">
+                <img src="images/alena3.svg" alt="alena-profile-pic">
+              </div>
+              <div class="profile-content">
+                <h4>Alena Herwitz</h4>
+                <div class="rating">
+                  <p>3 months ago</p>
+                  <img src="images/stars.svg" alt="rating stars">
+                </div>
+              </div>
+            </div>
+            <div class="statement">
+              <p>We make sure that your safety is never compromised. This is why we hire all the staff under the roof of
+                Home Comfort, just for your satisfaction.</p>
+            </div>
+          </div>
+          <div class="comment">
+            <div class="comment-head">
+              <div class="profile-pic">
+                <img src="images/alena4.svg" alt="alena-profile-pic">
+              </div>
+              <div class="profile-content">
+                <h4>Alena Herwitz</h4>
+                <div class="rating">
+                  <p>3 months ago</p>
+                  <img src="images/stars.svg" alt="rating stars">
+                </div>
+              </div>
+            </div>
+            <div class="statement">
+              <p>We make sure that your safety is never compromised. This is why we hire all the staff under the roof of
+                Home Comfort, just for your satisfaction.</p>
+            </div>
+          </div>
+          <div class="comment">
+            <div class="comment-head">
+              <div class="profile-pic">
+                <img src="images/alena5.svg" alt="alena-profile-pic">
+              </div>
+              <div class="profile-content">
+                <h4>Alena Herwitz</h4>
+                <div class="rating">
+                  <p>3 months ago</p>
+                  <img src="images/stars.svg" alt="rating stars">
+                </div>
+              </div>
+            </div>
+            <div class="statement">
+              <p>We make sure that your safety is never compromised. This is why we hire all the staff under the roof of
+                Home Comfort, just for your satisfaction.</p>
+            </div>
+          </div>
+          <div class="comment">
+            <div class="comment-head">
+              <div class="profile-pic">
+                <img src="images/alena6.svg" alt="alena-profile-pic">
+              </div>
+              <div class="profile-content">
+                <h4>Alena Herwitz</h4>
+                <div class="rating">
+                  <p>3 months ago</p>
+                  <img src="images/stars.svg" alt="rating stars">
+                </div>
+              </div>
+            </div>
+            <div class="statement">
+              <p>We make sure that your safety is never compromised. This is why we hire all the staff under the roof of
+                Home Comfort, just for your satisfaction.</p>
+            </div>
+          </div>
+          <div class="gig-bg-shadow deleting-div">
+            <img src="images/round-bg-effect.svg" alt="round-bg-effect">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="CONTACTUS" class="section-5 web-width">
+    <div class="page-width">
+      <h3>Quick Service On Emergency</h3>
+      <a href="tel:+971586747123">
+        <div class="emergency-number">
+          <img src="images/phone.svg" alt="phone-pic">
+          <h4>+92 330 4082 111</h4>
+        </div>
+      </a>
+    </div>
+  </div>
+  <footer>
+    <div class="page-width">
+      <div class="footer-content">
+        <div class="column-1">
+          <img src="images/footer-logo.svg" alt="footer-logo">
+          <p>We make sure that your safety is never compromised. This is why we hire all the staff under the roof of
+            Home Comfort, just for your satisfaction.</p>
+        </div>
+        <div class="column-2">
+          <p><a style="color: black; font-weight: 700;" href="#HOME">Home</a></p>
+          <p><a href="#SERVICES">Services</a></p>
+          <p><a href="#CONTACTUS">Contact Us</a></p>
+        </div>
+        <div class="column-3">
+          <p><a href="https://www.facebook.com/furqanahmad03" target="_blank">Facebook</a></p>
+          <p><a href="https://www.twitter.com/furqanahmad03" target="_blank">Twitter</a></p>
+          <p><a href="https://www.linkedin.com/in/furqanahmad03" target="_blank">Linkedin</a></p>
+          <p><a href="https://www.instagram.com/furqanahmad03" target="_blank">Instagram</a></p>
+        </div>
+        <div class="column-4">
+          <p class="hide-on-small"><a href="tel:+923304082111">+92 330 4082 111</a></p>
+          <p class="hide-on-small"><a href="mailto:hfurqan.se@gmail.com">hfurqan.se@gmail.com</a></p>
+          <label for="mail"></label>
+          <input type="email" id="mail" name="mail" placeholder="Enter Email">
+          <button type="submit" id="mail-send"><span>SEND</span><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>@Copyrights reserved by HomeComfort</p>
+      </div>
+    </div>
+  </footer>
+  <script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+  <script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
